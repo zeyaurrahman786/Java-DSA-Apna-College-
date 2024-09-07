@@ -1,7 +1,7 @@
 public class FindSubsets {
 
     public static void findSubsets(String str, String ans, int i){
-        // base case
+        // Base case
         if(i == str.length()){
             if(ans.length() == 0){
                 System.out.println("null");
@@ -12,7 +12,7 @@ public class FindSubsets {
         }
 
         // Recursive case
-        
+
         // Yes choice
         findSubsets(str, ans+str.charAt(i), i+1);
 
